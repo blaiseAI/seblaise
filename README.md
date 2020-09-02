@@ -1,5 +1,6 @@
 # Gridsome Portfolio Starter
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4bb69d02-62eb-4288-8c48-9be808d8607f/deploy-status)](https://app.netlify.com/sites/competent-goldwasser-621cad/deploys)
 A simple portfolio starter theme for Gridsome
 
 ![screenshot](https://user-images.githubusercontent.com/4316355/55691365-a2403380-596b-11e9-93be-05b846ec7760.jpg)
@@ -34,11 +35,11 @@ A simple portfolio starter theme for Gridsome
 
 ## Notes
 
- - Based on my [personal portfolio website](https://andremadarang.com). I wanted to create an open source version with more features.
- - Check out a [screencast I did](https://www.youtube.com/watch?v=uHo6o1TNQeE) where I go through the process of building my website.
- - Illustrations from [unDraw](https://undraw.co)
- - Search is based on [Fuse.js](https://fusejs.io) and [vue-fuse](https://github.com/shayneo/vue-fuse). It only searches the title and summary of posts for now. Some tweaking may be necessary to get it to search to your liking. Check out the fuse documentation for search settings. [This PR](https://github.com/drehimself/gridsome-portfolio-starter/pull/104) added the ability to search both "Post" and "Documentation" types.
- - Check out these other Gridsome Starters where I got some ideas from:
-    - [Gridsome Starter Blog](https://github.com/gridsome/gridsome-starter-blog)
-    - [Gridsome Starter Bleda](https://github.com/cossssmin/gridsome-starter-bleda)
-    - [Jigsaw Starter Blog](https://jigsaw.tighten.co/docs/starter-templates/) - I got a lot of design inspiration from this starter theme.
+- Based on my [personal portfolio website](https://andremadarang.com). I wanted to create an open source version with more features.
+- Check out a [screencast I did](https://www.youtube.com/watch?v=uHo6o1TNQeE) where I go through the process of building my website.
+- Illustrations from [unDraw](https://undraw.co)
+- Search is based on [Fuse.js](https://fusejs.io) and [vue-fuse](https://github.com/shayneo/vue-fuse). It only searches the title and summary of posts for now. Some tweaking may be necessary to get it to search to your liking. Check out the fuse documentation for search settings. [This PR](https://github.com/drehimself/gridsome-portfolio-starter/pull/104) added the ability to search both "Post" and "Documentation" types.
+- Check out these other Gridsome Starters where I got some ideas from:
+  - [Gridsome Starter Blog](https://github.com/gridsome/gridsome-starter-blog)
+  - [Gridsome Starter Bleda](https://github.com/cossssmin/gridsome-starter-bleda)
+  - [Jigsaw Starter Blog](https://jigsaw.tighten.co/docs/starter-templates/) - I got a lot of design inspiration from this starter theme.
