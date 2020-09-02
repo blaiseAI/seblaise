@@ -7,10 +7,10 @@
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
           <g-link v-if="theme === 'theme-light'" to="/">
-            <g-image src="../../static/logo_min.svg" class="w-40" alt="logo" />
+            <g-image src="../../static/logo_light.svg" class="w-40" alt="logo" />
           </g-link>
           <g-link v-else to="/">
-            <g-image src="../../static/logo_dark_mode.svg" class="w-40" alt="logo" />
+            <g-image src="../../static/logo_dark.svg" class="w-40" alt="logo" />
           </g-link>
         </div>
         <div class="block lg:hidden">
