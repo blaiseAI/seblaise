@@ -7,7 +7,7 @@ A simple portfolio starter theme for Gridsome
 
 ## Demo URL
 
-[https://gridsome-portfolio-starter.netlify.com](https://gridsome-portfolio-starter.netlify.com)
+[https://seblaise.dev](https://seblaise.dev)
 
 ## Features
 

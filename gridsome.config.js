@@ -7,7 +7,7 @@
 module.exports = {
     siteName: 'Seblaise Portfolio',
     siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1',
-    siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
+    siteUrl: 'https://seblaise.dev',
     plugins: [{
             use: 'gridsome-plugin-tailwindcss',
         },
@@ -42,13 +42,13 @@ module.exports = {
                 contentTypeName: 'Post',
                 feedOptions: {
                     title: 'Gridsome Portfolio Starter Blog',
-                    feed_url: 'https://gridsome-portfolio-starter.netlify.com/rss.xml',
-                    site_url: 'https://gridsome-portfolio-starter.netlify.com/'
+                    feed_url: 'https://seblaise.dev/rss.xml',
+                    site_url: 'https://seblaise.dev/'
                 },
                 feedItemOptions: node => ({
                     title: node.title,
                     description: node.summary,
-                    url: 'https://gridsome-portfolio-starter.netlify.com' + node.path,
+                    url: 'https://seblaise.dev' + node.path,
                     author: 'Andre Madarang',
                     date: node.date
                 }),
