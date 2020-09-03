@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-    siteName: 'Seblaise Portfolio',
+    siteName: 'Blaise Sebagabo | Personal Portfolio',
     siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1',
     siteUrl: 'https://seblaise.dev',
     plugins: [{
@@ -49,7 +49,7 @@ module.exports = {
                     title: node.title,
                     description: node.summary,
                     url: 'https://seblaise.dev' + node.path,
-                    author: 'Andre Madarang',
+                    author: 'Blaise Sebagabo',
                     date: node.date
                 }),
                 output: {
