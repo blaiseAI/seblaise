@@ -18,12 +18,12 @@ export default function(Vue, { router, head, isClient }) {
 
     head.meta.push({
         name: 'keywords',
-        content: 'Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS'
+        content: 'ASP.net,Java,Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS,Edmonton Web Developement'
     })
 
     head.meta.push({
         name: 'description',
-        content: 'Personal Portfolio website'
+        content: 'ASP.net/Vue Developer/Java/React'
     })
 
     head.meta.push({
@@ -33,14 +33,15 @@ export default function(Vue, { router, head, isClient }) {
 
     head.link.push({
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700'
+        href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap'
     })
 
     // Add an external JavaScript before the closing </body> tag
     head.script.push({
-            src: 'https://some-server.com/external-script.js',
-            body: true
-        })
-        // Added convertkit script
-    head.script.push({ src: '<script src="https://f.convertkit.com/ckjs/ck.5.js"</script>' })
+        src: 'https://some-server.com/external-script.js',
+        body: true
+    })
+
+    // Added convertkit script
+    head.script.push({ src: 'https://f.convertkit.com/ckjs/ck.5.js' })
 }

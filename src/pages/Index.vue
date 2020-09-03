@@ -13,12 +13,11 @@
 
     <div class="container-inner mx-auto">
       <p class="text-lg sm:text-xl">
-        This gridsome theme was forked from my
-        <a href="https://andremadarang.com">personal website</a>. I added more features and decided to release it as an open source project. Check it out on
+        Greetings,I'm Blaise! Currently a software Development Intern @
         <a
-          href="https://github.com/drehimself/gridsome-portfolio-starter"
-        >GitHub</a> or check out the
-        <a href="https://www.youtube.com/watch?v=uHo6o1TNQeE">screencast I did</a>. Feel free to use it for your own site or projects! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellat. Dolores iure, quas perspiciatis rerum quaerat atque eum repellat autem.
+          href="https://altaml.com"
+          target="_blank"
+        >AltaML</a>. Computer Software Developer Student at Northern Alberta Institute of Technology. I spend my time constantly figuring out on how to solve community problems with Technology.
       </p>
 
       <div class="flex justify-between items-center py-6">
@@ -45,16 +44,28 @@
 
         <ul class="text-lg sm:text-xl space-y-6">
           <li class="checkmark">
-            <div>Cryptocurrency Comparison web app</div>
+            <div>
+              <a
+                href="http://www.janalta.com/work"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Janalta Sites</a>
+            </div>
             <div
               class="text-lg text-gray-600"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            >Maintained, developed new feautures for websites that get 1M visitors per month, and i learned more about SEO Optimazition, MVC architecture, and how to deploy sites from development to production using AWS.</div>
           </li>
           <li class="checkmark">
-            <div>Quiz Application</div>
+            <div>Techopedia Application Insights</div>
             <div
               class="text-lg text-gray-600"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            >Implemented logging using application insight for client side and server side in order to monitor request rates, dependency rates, exceptions, pageviews, users. This implementation helped the site in reducing the number of reported bug by the users.</div>
+          </li>
+          <li class="checkmark">
+            <div>
+              <a href="http://" target="_blank" rel="noopener noreferrer">Stock Viewer</a>
+            </div>
+            <div class="text-lg text-gray-600">Coming soon...</div>
           </li>
         </ul>
       </div>
@@ -74,7 +85,7 @@
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div>
             <g-image
-              src="../../static/avatar-old.jpg"
+              src="../../static/avatar-blaise.png"
               alt="avatar"
               class="w-32 h-32 rounded-full mb-8 lg:mb-0"
             />
@@ -99,65 +110,11 @@
           </div>
 
           <p class="mb-12">
-            Static sites cannot submit forms on their own. However, services like
+            If you're looking to get in touch with me for business, advice or if you have a question, feel free to
             <a
-              href="https://www.netlify.com/docs/form-handling"
-            >Netlify Forms</a> or
-            <a href="https://formspree.io">FormSpree</a> can help you do this without a backend.
+              href="mailto:hello@seblaise.dev"
+            >email me</a>. I'll try to respond as soon as possible.
           </p>
-
-          <div class="text-lg sm:text-lg mb-16">
-            <form action="#" class="mb-12">
-              <div class="flex flex-wrap mb-6 -mx-4">
-                <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
-                  <label class="block mb-2 text-copy-primary" for="name">Name</label>
-
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Jon Snow"
-                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
-                    required
-                  />
-                </div>
-
-                <div class="w-full px-4 md:w-1/2">
-                  <label class="block text-copy-primary mb-2" for="email">Email Address</label>
-
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="email@example.com"
-                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
-                    required
-                  />
-                </div>
-              </div>
-
-              <div class="w-full mb-12">
-                <label class="block text-copy-primary mb-2" for="message">Message</label>
-
-                <textarea
-                  id="message"
-                  rows="5"
-                  name="message"
-                  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4"
-                  placeholder="Enter your message here."
-                  required
-                ></textarea>
-              </div>
-
-              <div class="flex justify-end w-full">
-                <input
-                  type="submit"
-                  value="Submit"
-                  class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
-                />
-              </div>
-            </form>
-          </div>
         </div>
       </div>
       <!-- end contact-me -->
