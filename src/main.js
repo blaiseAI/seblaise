@@ -35,4 +35,12 @@ export default function(Vue, { router, head, isClient }) {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700'
     })
+
+    // Add an external JavaScript before the closing </body> tag
+    head.script.push({
+            src: 'https://some-server.com/external-script.js',
+            body: true
+        })
+        // Added convertkit script
+    head.script.push({ src: '<script src="https://f.convertkit.com/ckjs/ck.5.js"</script>' })
 }
