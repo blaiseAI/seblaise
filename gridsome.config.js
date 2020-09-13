@@ -6,7 +6,7 @@
 
 module.exports = {
     siteName: 'Blaise Sebagabo | Personal Portfolio',
-    siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1',
+    siteDescription: '.NET/Java/Python/Node/Vue Developer',
     siteUrl: 'https://seblaise.dev',
     plugins: [{
             use: 'gridsome-plugin-tailwindcss',
@@ -14,7 +14,10 @@ module.exports = {
         {
             use: '@gridsome/plugin-google-analytics',
             options: {
-                id: 'UA-157315379-1'
+                id: 'UA-157315379-1',
+                debug: {
+                    sendHitTask: false
+                }
             }
         },
         {
