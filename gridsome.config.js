@@ -12,6 +12,12 @@ module.exports = {
             use: 'gridsome-plugin-tailwindcss',
         },
         {
+            use: '@gridsome/plugin-google-analytics',
+            options: {
+                id: 'UA-157315379-1'
+            }
+        },
+        {
             use: '@gridsome/vue-remark',
             options: {
                 typeName: 'Documentation', // Required
