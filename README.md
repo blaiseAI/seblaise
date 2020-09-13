@@ -36,10 +36,9 @@ A simple portfolio starter theme for Gridsome
 
 ## Notes
 
-- Based on my [personal portfolio website](https://andremadarang.com). I wanted to create an open source version with more features.
-- Check out a [screencast I did](https://www.youtube.com/watch?v=uHo6o1TNQeE) where I go through the process of building my website.
+- Based on my [personal portfolio website](https://seblaise.dev). I wanted to create an open source version with more features.
 - Illustrations from [unDraw](https://undraw.co)
-- Search is based on [Fuse.js](https://fusejs.io) and [vue-fuse](https://github.com/shayneo/vue-fuse). It only searches the title and summary of posts for now. Some tweaking may be necessary to get it to search to your liking. Check out the fuse documentation for search settings. [This PR](https://github.com/drehimself/gridsome-portfolio-starter/pull/104) added the ability to search both "Post" and "Documentation" types.
+- Search is based on [Fuse.js](https://fusejs.io) and [vue-fuse](https://github.com/shayneo/vue-fuse).
 - Check out these other Gridsome Starters where I got some ideas from:
   - [Gridsome Starter Blog](https://github.com/gridsome/gridsome-starter-blog)
   - [Gridsome Starter Bleda](https://github.com/cossssmin/gridsome-starter-bleda)
