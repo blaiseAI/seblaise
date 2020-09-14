@@ -63,7 +63,7 @@
           </li>
           <li class="checkmark">
             <div>
-              <a href="http://" target="_blank" rel="noopener noreferrer">Stock Viewer</a>
+              <a href="https://blaiseai.github.io/stockviewer/" target="_blank" rel="noopener noreferrer">Stock Viewer</a>
             </div>
             <div class="text-lg text-gray-600">Coming soon...</div>
           </li>
