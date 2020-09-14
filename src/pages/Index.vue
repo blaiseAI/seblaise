@@ -127,7 +127,7 @@
         <div class="w-4/5 mx-auto mb-8">
           <p
             class="mb-8 text-lg sm:text-xl"
-          >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, voluptatum. Quam, deleniti nulla.</p>
+          >Signup with your email address to receive blog updates.</p>
 
           <form action="#">
             <div class="flex flex-col sm:flex-row">
