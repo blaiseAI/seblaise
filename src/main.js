@@ -43,5 +43,5 @@ export default function(Vue, { router, head, isClient }) {
     })
 
     // Added convertkit script
-    head.script.push({ src: 'https://f.convertkit.com/ckjs/ck.5.js' })
+    // head.script.push({ src: 'https://f.convertkit.com/ckjs/ck.5.js' })
 }

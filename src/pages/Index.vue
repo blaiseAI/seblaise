@@ -2,7 +2,7 @@
   <Layout>
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <div class="leading-snug">Full-stack web developer</div>
+        <div class="leading-snug">Full-stack software developer</div>
         <div class="text-green-700 leading-snug">Based in Edmonton, Alberta</div>
       </div>
       <div class="mt-8 sm:mt-0">
@@ -63,7 +63,11 @@
           </li>
           <li class="checkmark">
             <div>
-              <a href="https://blaiseai.github.io/stockviewer/" target="_blank" rel="noopener noreferrer">Stock Viewer</a>
+              <a
+                href="https://blaiseai.github.io/stockviewer/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Stock Viewer</a>
             </div>
             <div class="text-lg text-gray-600">Coming soon...</div>
           </li>
@@ -125,9 +129,7 @@
         <h2 class="text-2xl font-bold mb-8">Join my Newsletter</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-          <p
-            class="mb-8 text-lg sm:text-xl"
-          >Signup with your email address to receive blog updates.</p>
+          <p class="mb-8 text-lg sm:text-xl">Signup with your email address to receive blog updates.</p>
 
           <form action="#">
             <div class="flex flex-col sm:flex-row">
