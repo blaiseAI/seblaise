@@ -38,10 +38,9 @@ export default function(Vue, { router, head, isClient }) {
 
     // Add an external JavaScript before the closing </body> tag
     head.script.push({
-        src: 'https://some-server.com/external-script.js',
-        body: true
-    })
-
-    // Added convertkit script
-    // head.script.push({ src: 'https://f.convertkit.com/ckjs/ck.5.js' })
+            src: 'https://some-server.com/external-script.js',
+            body: true
+        })
+        // Added convertkit script
+        // head.script.push({ src: 'https://f.convertkit.com/ckjs/ck.5.js' })
 }

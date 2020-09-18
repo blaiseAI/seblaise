@@ -190,6 +190,15 @@ import SearchInput from "../components/SearchInput";
 import ThemeSwitcher from "../components/ThemeSwitcher";
 
 export default {
+  metaInfo: {
+    script: [
+      {
+        innerHTML:
+          '{ "@context": "http://schema.org","@type":"Website","url":"https://www.seblaise.dev/", "potentialAction":{"@type":"SearchAction","target":"https:"https://query.example.com/search?q={search_term_string}","query-input": "required name=search_term_string"}}',
+        type: "application/ld+json",
+      },
+    ],
+  },
   components: {
     SearchInput,
     ThemeSwitcher,
