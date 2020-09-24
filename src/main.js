@@ -40,8 +40,6 @@ export default function(Vue, { router, head, isClient }) {
     head.script.push({
         src: '//js.hs-scripts.com/8520090.js',
         body: true,
-        async: true,
-        defer: true,
         id: 'hs-script-loader'
     })
 }

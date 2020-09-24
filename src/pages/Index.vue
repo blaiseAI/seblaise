@@ -96,7 +96,7 @@
           </div>
           <div
             class="flex-1 text-lg sm:text-xl ml-6"
-          >Hi! My Name is Blaise Sebagabo and i have been programming on the web for over 3 years. I've been using C#, NodeJS, Java, and Express and i really enjoy the ease of use these backend languages, it's developer experience, as well the community supporting this languages.</div>
+          >Hi! My Name is Blaise Sebagabo and I have been programming on the web for over 3 years. I've been using C#, NodeJS, Java, and Express and I really enjoy the ease of use these backend languages, it's developer experience, as well the community supporting this languages.</div>
         </div>
       </div>
       <!-- end get-to-know me -->
