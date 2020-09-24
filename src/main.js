@@ -38,13 +38,10 @@ export default function(Vue, { router, head, isClient }) {
 
     // Add an external JavaScript before the closing </body> tag
     head.script.push({
-            src: '//js.hs-scripts.com/8520090.js',
-            body: true,
-            id: 'hs-script-loader'
-        })
-        // Added convertkit script
-        // head.script.push({ src: 'https://f.convertkit.com/ckjs/ck.5.js' })
-        //         <!-- Start of HubSpot Embed Code -->
-        //   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8520090.js"></script>
-        // <!-- End of HubSpot Embed Code -->
+        src: '//js.hs-scripts.com/8520090.js',
+        body: true,
+        async: true,
+        defer: true,
+        id: 'hs-script-loader'
+    })
 }
