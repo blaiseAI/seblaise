@@ -1,12 +1,20 @@
 <template>
   <Layout>
-    <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
+    <div
+      class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16"
+    >
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-snug">Full-stack software developer</div>
-        <div class="text-green-700 leading-snug">Based in Edmonton, Alberta</div>
+        <div class="text-green-700 leading-snug">
+          Based in Edmonton, Alberta
+        </div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <g-image src="../../static/developer_seblaise.svg" alt="hero" class="mx-auto sm:mx-0" />
+        <g-image
+          src="../../static/developer_seblaise.svg"
+          alt="hero"
+          class="mx-auto sm:mx-0"
+        />
       </div>
     </div>
     <!-- end hero -->
@@ -14,10 +22,10 @@
     <div class="container-inner mx-auto">
       <p class="text-lg sm:text-xl">
         Greetings,I'm Blaise! Currently a software Development Intern @
-        <a
-          href="https://altaml.com"
-          target="_blank"
-        >AltaML</a>. Computer Software Developer Student at Northern Alberta Institute of Technology. I spend my time constantly figuring out on how to solve community problems with Technology.
+        <a href="https://altaml.com" target="_blank">AltaML</a>. Computer
+        Software Developer Student at Northern Alberta Institute of Technology.
+        I spend my time constantly figuring out on how to solve community
+        problems with Technology.
       </p>
 
       <div class="flex justify-between items-center py-6">
@@ -34,9 +42,14 @@
       <div
         class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative"
       >
-        <h2 class="font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
+        <h2 class="font-bold mb-6" id="projects">
+          Here are some projects I've worked on:
+        </h2>
 
-        <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
+        <div
+          class="absolute right-0"
+          style="top: 50px; transform: translate(100%) rotate(180deg)"
+        >
           <svg width="170px" height="170px">
             <use xlink:href="#dots-triangle" />
           </svg>
@@ -49,17 +62,24 @@
                 href="http://www.janalta.com/work"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Janalta Sites</a>
+                >Janalta Sites</a
+              >
             </div>
-            <div
-              class="text-lg text-gray-600"
-            >Maintained, developed new feautures for websites that get 1M visitors per month, and i learned more about SEO Optimazition, MVC architecture, and how to deploy sites from development to production using AWS.</div>
+            <div class="text-lg text-gray-600">
+              Maintained, developed new feautures for websites that get 1M
+              visitors per month, and i learned more about SEO Optimazition, MVC
+              architecture, and how to deploy sites from development to
+              production using AWS.
+            </div>
           </li>
           <li class="checkmark">
             <div>Techopedia Application Insights</div>
-            <div
-              class="text-lg text-gray-600"
-            >Implemented logging using application insight for client side and server side in order to monitor request rates, dependency rates, exceptions, pageviews, users. This implementation helped the site in reducing the number of reported bug by the users.</div>
+            <div class="text-lg text-gray-600">
+              Implemented logging using application insight for client side and
+              server side in order to monitor request rates, dependency rates,
+              exceptions, pageviews, users. This implementation helped the site
+              in reducing the number of reported bug by the users.
+            </div>
           </li>
           <li class="checkmark">
             <div>
@@ -67,9 +87,13 @@
                 href="https://blaiseai.github.io/stockviewer/"
                 target="_blank"
                 rel="noopener noreferrer"
-              >Stock Viewer</a>
+                >Stock Viewer</a
+              >
             </div>
-            <div class="text-lg text-gray-600">Coming soon...</div>
+            <div class="text-lg text-gray-600">
+              Stock Viewer application that keeps you updated with the latest
+              stock pricing info, and the history of different stocks
+            </div>
           </li>
         </ul>
       </div>
@@ -77,16 +101,23 @@
     </div>
 
     <div class="overflow-x-hidden border-gray-200 border-b">
-      <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
+      <div
+        class="get-to-know-me container-inner mx-auto text-xl pb-16 relative"
+      >
         <h2 class="font-bold mb-6" id="about">Get to know me:</h2>
 
-        <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
+        <div
+          class="absolute left-0"
+          style="top: 50px; transform: translateX(-100%)"
+        >
           <svg width="170px" height="170px">
             <use xlink:href="#dots-triangle" />
           </svg>
         </div>
 
-        <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
+        <div
+          class="flex flex-col sm:flex-row justify-between items-center mb-16"
+        >
           <div>
             <g-image
               src="../../static/avatar-blaise.png"
@@ -94,9 +125,13 @@
               class="w-32 h-32 rounded-full mb-8 lg:mb-0"
             />
           </div>
-          <div
-            class="flex-1 text-lg sm:text-xl ml-6"
-          >Hi! My Name is Blaise Sebagabo and I have been programming on the web for over 3 years. I've been using C#, NodeJS, Java, and Express and I really enjoy the ease of use these backend languages, it's developer experience, as well the community supporting this languages.</div>
+          <div class="flex-1 text-lg sm:text-xl ml-6">
+            Hi! My Name is Blaise Sebagabo and I have been programming on the
+            web for over 3 years. I've been using C#, NodeJS, Java, and Express
+            and I really enjoy the ease of use these backend languages, it's
+            developer experience, as well the community supporting this
+            languages.
+          </div>
         </div>
       </div>
       <!-- end get-to-know me -->
@@ -107,17 +142,20 @@
         <div class="container-inner mx-auto text-xl pb-4 relative">
           <h2 class="font-bold mb-6" id="contact">Contact me:</h2>
 
-          <div class="absolute right-0 top-0" style="transform: translate(100%) rotate(180deg)">
+          <div
+            class="absolute right-0 top-0"
+            style="transform: translate(100%) rotate(180deg)"
+          >
             <svg width="170px" height="170px">
               <use xlink:href="#dots-triangle" />
             </svg>
           </div>
 
           <p class="mb-12">
-            If you're looking to get in touch with me for business, advice or if you have a question, feel free to
-            <a
-              href="mailto:hello@seblaise.dev"
-            >email me</a>. I'll try to respond as soon as possible.
+            If you're looking to get in touch with me for business, advice or if
+            you have a question, feel free to
+            <a href="mailto:hello@seblaise.dev">email me</a>. I'll try to
+            respond as soon as possible.
           </p>
         </div>
       </div>
@@ -129,7 +167,9 @@
         <h2 class="text-2xl font-bold mb-8">Join my Newsletter</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-          <p class="mb-8 text-lg sm:text-xl">Signup with your email address to receive blog updates.</p>
+          <p class="mb-8 text-lg sm:text-xl">
+            Signup with your email address to receive blog updates.
+          </p>
 
           <form action="#">
             <div class="flex flex-col sm:flex-row">
