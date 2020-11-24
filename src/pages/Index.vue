@@ -120,7 +120,7 @@
         >
           <div>
             <g-image
-              src="../../static/avatar-blaise.png"
+              src="../../static/profile-pic (2).png"
               alt="avatar"
               class="w-32 h-32 rounded-full mb-8 lg:mb-0"
             />
