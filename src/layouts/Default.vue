@@ -91,6 +91,11 @@
             >
           </li>
           <li>
+            <g-link to="/uses/" class="text-copy-primary hover:text-gray-600"
+              >Uses</g-link
+            >
+          </li>
+          <li>
             <g-link to="/blog" class="text-copy-primary hover:text-gray-600"
               >Blog</g-link
             >
