@@ -84,6 +84,31 @@
           <li class="checkmark">
             <div>
               <a
+                href="https://covid-vaccination-tracker-server-yiqc5.ondigitalocean.app/"
+                >Covid-19 Vaccine Tracker</a
+              >
+            </div>
+            <div class="text-lg text-gray-600">
+              Near real-time COVID-19 data updates for every region in Canada,
+              tracking cases, deaths, vaccinations, hospitalizations, ICU,
+              recoveries and testing.
+            </div>
+          </li>
+          <li class="checkmark">
+            <div>
+              <a href="https://oglearning.app.dmitcapstone.ca/"
+                >Upstream E-learning</a
+              >
+            </div>
+            <div class="text-lg text-gray-600">
+              Upstream is a team based game designed to teach players how to
+              make informed investment decisions. You and your team will
+              progress through stages of Upstream Oil Value Chain.
+            </div>
+          </li>
+          <li class="checkmark">
+            <div>
+              <a
                 href="https://blaiseai.github.io/stockviewer/"
                 target="_blank"
                 rel="noopener noreferrer"
